@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<style>
+		/*伪类选择器:根据元素的选择状态选择元素*/
+		/*1.选择未访问的超链接*/
+		a:link{
+			color:green;
+		}
+		/*2.选择以访问的超链接*/
+		a:visited{
+			color:red;
+		}
+		/*选择激活状态的按钮*/
+		
+		#i1:active{
+			background-color:blue;
+		}
+		/*选择有焦点的文本框/密码框/文本域*/
+		#i2:focus{
+			background-color:green;
+		}
+		/*鼠标悬停状态*/
+		img:hover{
+			width:250px;
+			height:250px;
+		}
+		/*四个边设置相同的边框*/
+		p{
+			border:1px dashed red;
+			overflow:auto;	
+		}
+		/*单个边设置边框 left/right/top/bottom*/
+		h1{
+			border-left:10px solid blue;
+		}
+		div{
+			border:1px solid red;
+			width:100px;
+			height:100px;
+		}
+		/*1四个边设置相同的边距*/
+		#d1{
+			padding:20px;
+			margin:30px;
+		}
+		/*2四个边设置不同边距*/
+		#d2{
+			pding:10px 20px 30px 40px;
+			margin:40px 30px 20px 10px;
+		}
+		/*3单个边设置边距*/
+		#d3{
+			padding-left:20px;
+			margin-bottom:40px;
+		}
+		/*4对边设置相同边距*/
+		#d4{
+			padding:10px 20px;
+			margiin:10px 20px;
+		}
+		/*5对边设置相同边距的特例*/
+		#d5{
+			margin:20 auto;
+		}
+	</style>
+</head>
+<body>
+	<a href="http://www.baidu.com">百度</a>
+	<a href="http://www.google.com">谷歌</a>
+	<a href="http://www.xb.com">xb</a>
+	<p>
+		<input type="button" value="anliu" id="i1"/>
+	</p>
+	<p>
+		<input type="text" id="i2"/>
+	</p>
+	<p>
+	<img  src="image/jb1.jpg">
+	</p>
+	<h1>java</h1>
+	<div id="d0">d0</div>
+	<div id="d1">d1</div>
+	<div id="d2">d2</div>
+	<div id="d3">d3</div>
+	<div id="d4">d4</div>
+	<div id="d5">d5</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>
